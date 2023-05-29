@@ -1,3 +1,19 @@
-<h3>Coach's Answer:</h3>
-<!--<p>Question: <%= @question %></p>-->
-<p><%= @answer %></p>
+<!-- <h3>Coach's Answer:</h3> -->
+<!-- <p>Question: <%= @question %></p> -->
+<!-- <p><%= @answer %></p> -->
+
+<figure class="text-start">
+  <blockquote class="blockquote">
+    <p><%= @question %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    You
+  </figcaption>
+
+  <blockquote class="blockquote">
+    <p><%= @answer %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Your coach
+  </figcaption>
+</figure>
